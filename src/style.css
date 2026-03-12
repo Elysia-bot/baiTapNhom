@@ -1,0 +1,48 @@
+/* Thiết lập font chữ chung cho dễ nhìn */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5; /* Màu nền nhẹ nhàng */
+  margin: 0;
+}
+
+/* Trang trí chiếc thẻ (Card) */
+.my-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px; /* Bo góc tròn cho dễ thương */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Đổ bóng cho có chiều sâu */
+  text-align: center;
+  max-width: 300px;
+  transition: transform 0.3s ease; /* Hiệu ứng mượt mà */
+}
+
+/* Hiệu ứng khi di chuột vào thẻ */
+.my-card:hover {
+  transform: translateY(-5px); /* Thẻ nhấc nhẹ lên khi rê chuột vào */
+}
+
+/* Trang trí tiêu đề */
+h2 {
+  color: #ff6b6b; /* Màu đỏ hồng ngọt ngào */
+  margin-top: 0;
+}
+
+/* Trang trí nút bấm */
+.my-button {
+  background-color: #4ecdc4; /* Màu xanh ngọc năng động */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.my-button:hover {
+  background-color: #45b7af; /* Đậm hơn một chút khi di chuột */
+}
