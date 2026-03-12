@@ -11,7 +11,7 @@ body {
 
 /* Trang trí chiếc thẻ (Card) */
 .my-card {
-  background-color: white;
+  background-color: red;
   padding: 30px;
   border-radius: 15px; /* Bo góc tròn cho dễ thương */
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Đổ bóng cho có chiều sâu */
